@@ -1,0 +1,146 @@
+* {
+    margin: 3px;
+    padding: 0;
+    border: 0;
+}
+.coluna-esquerda {
+    width: 25%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+  .coluna-direita {
+    width: 60%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    float: left;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border-radius: 2px;
+}
+
+.container__baixo {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container__incricao {
+    float: left;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container__livros {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center
+}
+.button {
+    border: 2px solid black;
+    border-radius: 15%;
+    border-left: 100%;
+}
+input {
+    /*background-repeat: no-repeat;*/
+    padding: 0px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-size: 16px;
+    width: 550px;
+    height: 25px;
+}
+button[type="submit"] {
+    background-image: url(./img/lupa.png);
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+hr {
+    position: absolute;
+    top: 28vh;
+    width: 15%;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+.container__livrinhos {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center;
+}
+.container__hisotirco {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center;
+}
+.container__camera {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center;
+}
+.container__relogio {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center;
+}
+.container__like {
+    float: left;
+    margin-right: 1opx;
+    display: flex;
+    align-items: center;
+}
+.butao_pesquisa {
+    width: 8%;
+    height: 20px;
+    padding: 15spx;
+    border-radius: 5px;
+    text-align: center;
+}
+.butao_pesquisas {
+    background: black;
+    color: white;
+    width: 8%;
+    height: 20px;
+    padding: 15spx;
+    border-radius: 5px;
+    text-align: center;
+}
+.texto__imagem {
+    position: absolute;
+    left: -13%;
+    text-align: center;
+    width: 100%;
+    top: 47%;
+}
+ .contaier__video {
+    position: absolute;
+    left: -13%;
+    width: 100%;
+    border-image: 4px;
+}
+.texto__imagems {
+    position: absolute;
+    left: -28%;
+    text-align: center;
+    width: 100%;
+    top: 99%;
+}
